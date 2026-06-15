@@ -1,0 +1,5 @@
+t=(1,2,3,4,5)
+l=list(t)
+l.insert(3,3.5)
+t=tuple(l)
+print(l,t)

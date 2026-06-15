@@ -1,24 +1,6 @@
-def number():
-    for i in range(1,10000):
-        yield i
-n=number()
-print(next(n))
-print(next(n))
-print(next(n))
-print(next(n))
-print(next(n))
-print(next(n))
-print(next(n))
-print(next(n))
-print(next(n))
-print(next(n))
-print(next(n))
-print(next(n))
-print(next(n))
-print(next(n))
-print(next(n))
-print(next(n))
-print(next(n))
-print(next(n))
-print(next(n))
-print(next(n))
+
+# params = {
+#     "lat": 52.2297,
+
+#     "appid": "39e08a643d874d53b311ebb12f00a67f"
+# }

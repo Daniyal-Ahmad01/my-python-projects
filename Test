@@ -1,0 +1,113 @@
+## STEP 1 — FUNCTION STRUCTURE
+
+You must split your code into functions:
+
+* `get_weather(city)`
+* `display_weather(data)`
+* `main()`
+
+No messy single block code anymore.
+
+---
+
+## STEP 2 — LOOP + EXIT SYSTEM
+
+Program should:
+
+* keep running
+* accept multiple cities
+* stop only when user types `exit`
+
+---
+
+## STEP 3 — ERROR CLASSIFICATION
+
+You must handle differently:
+
+* Invalid city (API returns 404)
+* Invalid API key (401)
+* Internet failure (requests error)
+
+Right now you treat all errors the same → that’s wrong.
+
+---
+
+## STEP 4 — CLEAN OUTPUT RULE
+
+Only show:
+
+* City
+* Temperature
+* Weather
+* Humidity
+
+No JSON ever.
+
+---
+
+## STEP 5 — UX IMPROVEMENT
+
+Add:
+
+* spacing
+* readable format
+* consistent output
+
+Make it feel like a real tool, not debug code.
+
+---
+
+# WHY THIS STEP MATTERS
+
+This is where most beginners fail.
+
+They can:
+
+* call APIs
+* print JSON
+
+But cannot:
+
+* structure code
+* handle errors properly
+* build reusable programs
+
+This step fixes that.
+
+---
+
+# AFTER YOU FINISH THIS (NEXT LEVEL AFTER NEXT)
+
+Only then you move to:
+
+### Option A:
+
+* Save weather history to file
+
+### Option B:
+
+* Build weather web app (Flask)
+
+### Option C:
+
+* Connect multiple APIs
+
+---
+
+# HARD TRUTH
+
+If you jump to new topics now:
+
+* AI
+* ML
+* agents
+
+you will stay weak forever.
+
+If you master this step:
+
+* everything later becomes easy
+
+---
+
+Now go build Weather CLI Tool v2. Don’t ask for next step until this one is solid.
