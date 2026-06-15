@@ -7,7 +7,7 @@ while True:
     try:
         params={
             "q":city,
-            "appid":"dc61cab64ffdb8d03cde7279811ca7e4",
+            "appid":"Your API key",
             "units": "metric"
         }
         response=requests.get(url,params=params)
